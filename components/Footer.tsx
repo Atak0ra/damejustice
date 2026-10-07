@@ -1,36 +1,44 @@
-export default function Footer() {
-  const year = new Date().getFullYear();
+import { COMPANY_NAME, COMPANY_URL, SITE_NAME } from "@/lib/site";
+import type { Locale } from "@/lib/i18n";
+import type { Dictionary } from "@/app/[lang]/dictionaries";
+
+const linkClass = "inline-flex min-h-11 items-center hover:text-ink";
+
+export default function Footer({ lang, dict }: { lang: Locale; dict: Dictionary }) {
+  const { footer } = dict;
 
   return (
-    <footer className="bg-codex-navy text-vellum/70">
-      <div className="mx-auto max-w-6xl px-6 py-10">
-        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          <p className="font-caslon text-sm text-vellum">
-            Dame <span className="text-seal-red">Justice</span>
-          </p>
-
-          <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
-            <a href="/mentions-legales" className="hover:text-vellum">
-              Mentions légales
-            </a>
-            <a href="/confidentialite" className="hover:text-vellum">
-              Confidentialité
-            </a>
-            <a
-              href="https://compeel.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-vellum"
-            >
-              Un produit du studio Compeel
-            </a>
-          </nav>
-        </div>
-
-        <p className="mt-6 text-xs text-vellum/50">
-          © {year} Dame Justice. Les informations fournies ne constituent pas
-          un conseil juridique.
+    <footer className="border-t border-line">
+      <div className="page-shell flex flex-col gap-4 py-10 text-sm text-graphite md:flex-row md:items-center md:justify-between lg:px-12">
+        <p>
+          © {new Date().getFullYear()} {SITE_NAME}. {footer.productBefore}
+          <a
+            href={COMPANY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 hover:text-ink"
+          >
+            {COMPANY_NAME}
+          </a>
+          {footer.productAfter}
         </p>
+        <ul className="flex flex-wrap items-center gap-x-6">
+          <li>
+            <a href={`/${lang}#demo`} className={linkClass}>
+              {footer.contact}
+            </a>
+          </li>
+          <li>
+            <a href={`/${lang}/mentions-legales`} className={linkClass}>
+              {footer.legal}
+            </a>
+          </li>
+          <li>
+            <a href={`/${lang}/confidentialite`} className={linkClass}>
+              {footer.privacy}
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   );

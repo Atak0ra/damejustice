@@ -4,8 +4,8 @@
 
 @layer base {
   ::selection {
-    background-color: #9a2b1e;
-    color: #ededed;
+    background-color: #a88a55;
+    color: #ffffff;
   }
 
   html {
@@ -13,13 +13,23 @@
   }
 
   body {
-    background-color: #ededea;
-    color: #16181d;
+    background-color: #f7f6f2;
+    color: #14181f;
   }
 
   :focus-visible {
-    outline: 2px solid #9a2b1e;
-    outline-offset: 2px;
+    outline: 2px solid #a88a55;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8;
+  }
+
+  .button-primary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2.5 rounded-[3px] bg-brass px-6 py-3 text-[15px] font-normal text-white transition-colors hover:bg-brass-deep disabled:cursor-wait disabled:opacity-60;
   }
 }
 
@@ -34,19 +44,4 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-}
-
-@keyframes balance-draw {
-  from {
-    stroke-dashoffset: 1;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.balance-draw {
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  animation: balance-draw 0.7s ease-out forwards;
 }

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "DameJustice: the sovereign legal document assistant, 100% on-premise",
+    "description": "DameJustice searches your firm's contracts, leases and archives directly on your own servers, even offline. Every answer cites its exact source. No document ever leaves the firm.",
+    "ogLocale": "en_US",
+    "skipLink": "Skip to content"
+  },
+  "header": {
+    "homeLabel": "DameJustice, back to top",
+    "cta": "Request a demo",
+    "languageLabel": "Language"
+  },
+  "hero": {
+    "titleLine1": "Your firm remembers",
+    "titleLine2": "everything.",
+    "promises": ["Ask a question", "Find the answer", "Check the source"],
+    "cta": "See a demonstration"
+  },
+  "preview": {
+    "menu": { "search": "Search", "documents": "Documents", "cases": "Cases", "favorites": "Favorites" },
+    "userName": "Alexandre C.",
+    "userRole": "Partner",
+    "filter": "All documents",
+    "question": "What strategy did we adopt in the Martin v. Durand case?",
+    "answer": "In the Martin v. Durand case (2021), the firm adopted a strategy based on challenging territorial jurisdiction, arguing that there was no sufficient connection with the area covered by the court seized. This argument was well received at first instance, before being partially called into question on appeal.",
+    "sourcesLabel": "Sources",
+    "caseName": "Case Martin v. Durand",
+    "sources": [
+      { "file": "Summary submissions.pdf", "page": "p. 18" },
+      { "file": "Appeal brief.pdf", "page": "p. 6" },
+      { "file": "First instance order.pdf", "page": "p. 3" }
+    ],
+    "caption": "Application preview: a question asked about the Martin v. Durand case, a written answer and three sources cited with their page number."
+  },
+  "demo": {
+    "title": "See DameJustice work on your own documents.",
+    "text": "A 30-minute demonstration, with a sample corpus or your own, on a machine disconnected from the network if you wish. We then discuss your infrastructure and your confidentiality requirements."
+  },
+  "form": {
+    "ariaLabel": "Request a DameJustice demonstration",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "organization": "Firm or organization",
+    "email": "Work email",
+    "size": "Organization size (optional)",
+    "sizeOptions": [
+      { "value": "", "label": "Not specified" },
+      { "value": "1-10", "label": "1 to 10 people" },
+      { "value": "11-50", "label": "11 to 50 people" },
+      { "value": "51-200", "label": "51 to 200 people" },
+      { "value": "200+", "label": "More than 200 people" }
+    ],
+    "message": "Message (optional)",
+    "honeypot": "Do not fill in",
+    "privacyBefore": "Your information is used only to respond to your request. See the ",
+    "privacyLink": "privacy policy",
+    "privacyAfter": ".",
+    "submit": "Request a demonstration",
+    "sending": "Sending…",
+    "networkError": "Could not send. Check your connection and try again.",
+    "genericError": "Unable to send right now.",
+    "successTitle": "Request received.",
+    "successBefore": "Thank you. We will get back to you",
+    "successTo": " at ",
+    "successAfter": " within 2 business days to arrange the demonstration."
+  },
+  "footer": {
+    "productBefore": "A ",
+    "productAfter": " product.",
+    "contact": "Contact",
+    "legal": "Legal notice",
+    "privacy": "Privacy"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "DameJustice : l'assistant documentaire juridique souverain, 100 % on-premise",
+    "description": "DameJustice interroge les contrats, baux et archives de votre cabinet directement sur vos serveurs, même hors connexion. Chaque réponse cite sa source exacte. Aucun document ne quitte le cabinet.",
+    "ogLocale": "fr_FR",
+    "skipLink": "Aller au contenu"
+  },
+  "header": {
+    "homeLabel": "DameJustice, retour en haut de page",
+    "cta": "Demander une démo",
+    "languageLabel": "Langue"
+  },
+  "hero": {
+    "titleLine1": "Votre cabinet se souvient",
+    "titleLine2": "de tout.",
+    "promises": ["Posez une question", "Retrouvez une réponse", "Vérifiez la source"],
+    "cta": "Voir une démonstration"
+  },
+  "preview": {
+    "menu": { "search": "Rechercher", "documents": "Documents", "cases": "Dossiers", "favorites": "Favoris" },
+    "userName": "Alexandre C.",
+    "userRole": "Associé",
+    "filter": "Tous les documents",
+    "question": "Quelle stratégie avons-nous retenue dans le dossier Martin contre Durand ?",
+    "answer": "Dans le dossier Martin contre Durand (2021), le cabinet avait retenu une stratégie fondée sur la contestation de la compétence territoriale, en soutenant l'absence de lien suffisant avec le ressort du tribunal saisi. Cette argumentation avait été accueillie favorablement en première instance, avant d'être partiellement remise en cause en appel.",
+    "sourcesLabel": "Sources",
+    "caseName": "Dossier Martin c. Durand",
+    "sources": [
+      { "file": "Conclusions récapitulatives.pdf", "page": "p. 18" },
+      { "file": "Mémoire d'appel.pdf", "page": "p. 6" },
+      { "file": "Ordonnance de première instance.pdf", "page": "p. 3" }
+    ],
+    "caption": "Aperçu de l'application : une question posée sur le dossier Martin contre Durand, une réponse rédigée et trois sources citées avec leur page."
+  },
+  "demo": {
+    "title": "Voyez DameJustice travailler sur vos propres documents.",
+    "text": "Une démonstration de 30 minutes, avec un corpus d'exemple ou le vôtre, sur une machine déconnectée du réseau si vous le souhaitez. Nous échangeons ensuite sur votre infrastructure et vos contraintes de confidentialité."
+  },
+  "form": {
+    "ariaLabel": "Demander une démonstration DameJustice",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "organization": "Cabinet ou organisation",
+    "email": "Email professionnel",
+    "size": "Taille de la structure (facultatif)",
+    "sizeOptions": [
+      { "value": "", "label": "Non précisée" },
+      { "value": "1-10", "label": "1 à 10 personnes" },
+      { "value": "11-50", "label": "11 à 50 personnes" },
+      { "value": "51-200", "label": "51 à 200 personnes" },
+      { "value": "200+", "label": "Plus de 200 personnes" }
+    ],
+    "message": "Message (facultatif)",
+    "honeypot": "Ne pas remplir",
+    "privacyBefore": "Vos informations servent uniquement à répondre à votre demande. Voir la ",
+    "privacyLink": "politique de confidentialité",
+    "privacyAfter": ".",
+    "submit": "Demander une démonstration",
+    "sending": "Envoi…",
+    "networkError": "Envoi impossible. Vérifiez votre connexion et réessayez.",
+    "genericError": "Envoi impossible pour le moment.",
+    "successTitle": "Demande reçue.",
+    "successBefore": "Merci. Nous revenons vers vous",
+    "successTo": " à ",
+    "successAfter": " sous 2 jours ouvrés pour organiser la démonstration."
+  },
+  "footer": {
+    "productBefore": "Un produit ",
+    "productAfter": ".",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité"
+  }
+}
