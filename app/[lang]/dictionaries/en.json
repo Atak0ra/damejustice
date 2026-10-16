@@ -13,11 +13,20 @@
   "hero": {
     "titleLine1": "Your firm remembers",
     "titleLine2": "everything.",
-    "promises": ["Ask a question", "Find the answer", "Check the source"],
+    "promises": [
+      "Ask a question",
+      "Find the answer",
+      "Check the source"
+    ],
     "cta": "See a demonstration"
   },
   "preview": {
-    "menu": { "search": "New search", "documents": "Library", "cases": "Cases", "favorites": "Favorites" },
+    "menu": {
+      "search": "New search",
+      "documents": "Library",
+      "cases": "Cases",
+      "favorites": "Favorites"
+    },
     "recent": "Recent",
     "recentItem": "Corpus discovery",
     "recentAgo": "23 h ago",
@@ -36,11 +45,42 @@
     "sourcesLabel": "Sources",
     "caseName": "Case Martin v. Durand",
     "sources": [
-      { "file": "Summary submissions.pdf", "page": "p. 18" },
-      { "file": "Appeal brief.pdf", "page": "p. 6" },
-      { "file": "First instance order.pdf", "page": "p. 3" }
+      {
+        "file": "Summary submissions.pdf",
+        "page": "p. 18"
+      },
+      {
+        "file": "Appeal brief.pdf",
+        "page": "p. 6"
+      },
+      {
+        "file": "First instance order.pdf",
+        "page": "p. 3"
+      }
     ],
     "caption": "Application preview: a question asked about the Martin v. Durand case, a written answer and three sources cited with their page number."
+  },
+  "onPremise": {
+    "kicker": "Security & confidentiality",
+    "title": "Your confidential files never leave your premises.",
+    "subtitle": "For total confidentiality, DameJustice is installed directly within your organisation as a dedicated secure appliance.",
+    "imageAlt": "The DameJustice secure appliance, installed on your premises.",
+    "cards": [
+      {
+        "title": "Absolute professional secrecy",
+        "text": "Your briefs, contracts, deeds and case files stay with you. No data passes through an external cloud."
+      },
+      {
+        "title": "Ready to use",
+        "text": "The appliance plugs straight into your local network. Every lawyer on your team can access it immediately from their own workstation."
+      },
+      {
+        "title": "Instant search",
+        "text": "Find a clause, a precedent or an analysis across all your archives in a fraction of a second."
+      }
+    ],
+    "note": "Our team installs, configures and maintains the appliance remotely. No technical skills are required on your side.",
+    "cta": "Discuss a tailored deployment"
   },
   "demo": {
     "title": "See DameJustice work on your own documents.",
@@ -54,11 +94,26 @@
     "email": "Work email",
     "size": "Organization size (optional)",
     "sizeOptions": [
-      { "value": "", "label": "Not specified" },
-      { "value": "1-10", "label": "1 to 10 people" },
-      { "value": "11-50", "label": "11 to 50 people" },
-      { "value": "51-200", "label": "51 to 200 people" },
-      { "value": "200+", "label": "More than 200 people" }
+      {
+        "value": "",
+        "label": "Not specified"
+      },
+      {
+        "value": "1-10",
+        "label": "1 to 10 people"
+      },
+      {
+        "value": "11-50",
+        "label": "11 to 50 people"
+      },
+      {
+        "value": "51-200",
+        "label": "51 to 200 people"
+      },
+      {
+        "value": "200+",
+        "label": "More than 200 people"
+      }
     ],
     "message": "Message (optional)",
     "honeypot": "Do not fill in",

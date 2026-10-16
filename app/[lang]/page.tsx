@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import OnPremiseSection from "@/components/OnPremiseSection";
 import DemoSection from "@/components/DemoSection";
 import Footer from "@/components/Footer";
 import { hasLocale } from "@/lib/i18n";
@@ -16,6 +17,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <Header lang={lang} dict={dict} />
       <main id="contenu">
         <Hero dict={dict} />
+        <OnPremiseSection dict={dict} />
         <DemoSection lang={lang} dict={dict} />
       </main>
       <Footer lang={lang} dict={dict} />

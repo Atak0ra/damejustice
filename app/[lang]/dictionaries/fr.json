@@ -13,11 +13,20 @@
   "hero": {
     "titleLine1": "Votre cabinet se souvient",
     "titleLine2": "de tout.",
-    "promises": ["Posez une question", "Retrouvez une réponse", "Vérifiez la source"],
+    "promises": [
+      "Posez une question",
+      "Retrouvez une réponse",
+      "Vérifiez la source"
+    ],
     "cta": "Voir une démonstration"
   },
   "preview": {
-    "menu": { "search": "Nouvelle recherche", "documents": "Bibliothèque", "cases": "Dossiers", "favorites": "Favoris" },
+    "menu": {
+      "search": "Nouvelle recherche",
+      "documents": "Bibliothèque",
+      "cases": "Dossiers",
+      "favorites": "Favoris"
+    },
     "recent": "Récentes",
     "recentItem": "Découverte corpus",
     "recentAgo": "il y a 23 h",
@@ -36,11 +45,42 @@
     "sourcesLabel": "Sources",
     "caseName": "Dossier Martin c. Durand",
     "sources": [
-      { "file": "Conclusions récapitulatives.pdf", "page": "p. 18" },
-      { "file": "Mémoire d'appel.pdf", "page": "p. 6" },
-      { "file": "Ordonnance de première instance.pdf", "page": "p. 3" }
+      {
+        "file": "Conclusions récapitulatives.pdf",
+        "page": "p. 18"
+      },
+      {
+        "file": "Mémoire d'appel.pdf",
+        "page": "p. 6"
+      },
+      {
+        "file": "Ordonnance de première instance.pdf",
+        "page": "p. 3"
+      }
     ],
     "caption": "Aperçu de l'application : une question posée sur le dossier Martin contre Durand, une réponse rédigée et trois sources citées avec leur page."
+  },
+  "onPremise": {
+    "kicker": "Sécurité & confidentialité",
+    "title": "Vos dossiers confidentiels ne quittent jamais vos locaux.",
+    "subtitle": "Pour une confidentialité totale, DameJustice s'installe directement au sein de votre structure sous la forme d'un boîtier sécurisé dédié.",
+    "imageAlt": "Le boîtier sécurisé DameJustice, installé dans vos locaux.",
+    "cards": [
+      {
+        "title": "Secret professionnel absolu",
+        "text": "Vos mémoires, contrats, actes et pièces d'affaires restent chez vous. Aucune donnée ne transite par un cloud externe."
+      },
+      {
+        "title": "Prêt à l'emploi",
+        "text": "Le boîtier se branche directement sur votre réseau local. Tous les juristes de votre équipe y accèdent immédiatement depuis leur poste de travail."
+      },
+      {
+        "title": "Recherche instantanée",
+        "text": "Retrouvez une clause, un précédent ou une analyse dans l'ensemble de vos archives en une fraction de seconde."
+      }
+    ],
+    "note": "Nos équipes installent, configurent et maintiennent le boîtier à distance. Aucune compétence technique n'est demandée de votre côté.",
+    "cta": "Échanger sur le déploiement sur-mesure"
   },
   "demo": {
     "title": "Voyez DameJustice travailler sur vos propres documents.",
@@ -54,11 +94,26 @@
     "email": "Email professionnel",
     "size": "Taille de la structure (facultatif)",
     "sizeOptions": [
-      { "value": "", "label": "Non précisée" },
-      { "value": "1-10", "label": "1 à 10 personnes" },
-      { "value": "11-50", "label": "11 à 50 personnes" },
-      { "value": "51-200", "label": "51 à 200 personnes" },
-      { "value": "200+", "label": "Plus de 200 personnes" }
+      {
+        "value": "",
+        "label": "Non précisée"
+      },
+      {
+        "value": "1-10",
+        "label": "1 à 10 personnes"
+      },
+      {
+        "value": "11-50",
+        "label": "11 à 50 personnes"
+      },
+      {
+        "value": "51-200",
+        "label": "51 à 200 personnes"
+      },
+      {
+        "value": "200+",
+        "label": "Plus de 200 personnes"
+      }
     ],
     "message": "Message (facultatif)",
     "honeypot": "Ne pas remplir",
